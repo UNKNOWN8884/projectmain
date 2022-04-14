@@ -59,56 +59,6 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ 
-𝕙𝕖𝕪  𝕥𝕙𝕖𝕣𝕖!.
-telegram Group management with lots of features.
-───────────────────────
-× Uptime: 8days, 10h:36m:16s
-×  `{}` users, across `{}` chats..
-───────────────────────
-✪ Bot For help You Manage & Protect Your Groups.
-➼ So What U Waiting For Add Me To Ur chat
-───────────────────────
-"""
-buttons = [
-    [
-        InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ 🥰", url="t.me/FINAL_STRIKER_BOT?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs ❔", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="Dᴇᴠʟᴏᴘᴇʀ🤓", url="https://t.me/TheTelegrampro"),
-    ],
-    [
-        InlineKeyboardButton(text="❤️𝕭𝖔𝖙 𝖀𝖕𝖉𝖆𝖙𝖊$💙", url="t.me/Thanimaibots"),
-        InlineKeyboardButton(text="✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="t.me/Thanimaisupport"),
-    ],
-    [
-        InlineKeyboardButton(text="⚠️𝗦𝗼𝘂𝗿𝗰𝗲⚠️🖥️", callback_data="source_"
-        ),
-    ],
-]
-
-
-
-HELP_STRINGS = """
-Hey There!
-I'm here to help you manage your groups!
-Commands available:
-× /start: Start the bot
-× /help: Give's you this message.
-All commands can either be used with / OR !."""
-
-START_IMG = "https://telegra.ph/file/91d3a167481da71ab5b44.mp4"
-MASHA_IMG = "https://telegra.ph/file/7aba4b67279c844454b4c.jpg"
-
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
-
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
